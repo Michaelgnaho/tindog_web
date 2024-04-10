@@ -1,0 +1,151 @@
+.navbar-nav{
+	margin-left: auto;
+}
+.h1-title{
+	font-family: "Arvo-black", "serif";
+	font-size: 4rem;
+	line-height: 1;
+	color: #f3f2f2;
+	font-weight: bolder;
+}
+.container-fluid {
+    padding: 3% 10% 7% !important;
+    background-color: #ff4e68 !important;
+}
+
+body{
+	font-family:"Merriweather" !important;
+}
+.navbar{
+	background-color: #ff4e68 !important;
+	margin-bottom:4rem;
+}
+.phone-image {
+    width: 19%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transform: rotate(25deg);
+	padding-top: 4px;
+	position: absolute;
+	right: 20%;
+	
+}
+.download-botton{
+	margin: 18px auto;
+	
+}
+#features{
+	padding: 10% 6% 5% !important;
+	background-color: whitesmoke;
+	position: relative;
+	z-index: 1;
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+.h3{
+	font-family: "Arvo-bold", "serif";
+}
+	
+p{
+	font-family:"Merriweather-Light 300" !important;
+}
+.icon{
+	color:#ef8172;
+	padding-bottom: 4% !important;
+}
+.icon:hover{
+	color:  #ff4e68;
+}
+
+/* testimonials */
+
+#testimonials{
+	padding: 5% 2% 0;
+	text-align: center;
+	background-color: #ff4e68;
+	color: #ececec;
+	font-size: larger;
+	line-height: 1.2rem;
+	
+}
+.dog-img{
+	border-radius:100% ;
+	width: 10%;
+	padding: 1%;
+}
+.lady-img{
+	border-radius:100% ;
+	width: 10%;
+	padding: 1%;
+}
+.carousel-inner{
+	padding: 0;
+}
+
+/* press */
+#press{
+	background-color: #ff4e68;
+	padding: 2%;
+	text-align: center;
+	
+}
+.press-img{
+	width: 15%;
+	margin: 20px 15px;
+	
+}
+/* testimonials */
+.carousel-item{
+	height: 500px !important;
+	padding: 10% 3% 0;
+}
+
+/* pricing */
+
+#pricing{
+	padding: 3% 2%;
+	text-align: center;
+}
+.card-body{
+	padding: 2%;
+}
+.card-body3{
+	line-height: 0.9;
+}
+
+/* android veiwport */
+@media (max-width:997px) {
+	.phone-image{
+		position: static !important;
+		transform: rotate(0);
+		width: 60%;
+		text-align: center;
+	}
+
+
+	
+}
+#cta{
+	background-color: #ff4e68;
+	text-align: center;
+	font-family: "Arvo-bold", "san-serif";
+	font: 2rem sans-serif;
+	width: 100px auto;
+	height: 300px;
+	padding: 5% 5% 3%;
+}
+.cta-text{
+	padding-bottom: 30px;
+	font-size: 3rem;
+	color: #fcfcfc
+}
+#footer{
+	background-color: #f3f2f2;
+	text-align: center;
+	height: 70px;
+	padding: 3% !important;
+}
+.social-icon{
+	padding: 10px 20px !important;
+}
